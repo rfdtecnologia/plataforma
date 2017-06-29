@@ -1,0 +1,267 @@
+/* CSS Document */
+body {
+    background-color: #FFFFFF;
+    color: #000000;
+    font-family: Arial;
+    font-size: 12px;
+    margin: 0;
+    padding: 0;
+}
+
+.clr {
+    clear: both;
+}
+div.bd {
+    background-color: #060A59;
+    padding: 10px 12px;
+}
+
+.bd h2 {
+    color: #ffffff;
+    font-size: 16px;
+}
+
+.bd .bd_left {
+    float: left;
+    width: 50%;
+}
+
+.bd .bd_right {
+    float: right;
+    width: 50%;
+    text-align: right;
+}
+
+.tbl {
+    background-color: #FFFFFF;
+}
+.hr {
+    background-color: #060A59;
+    color: #FFFFFF;
+    font-family: Arial;
+    font-size: 12px;
+}
+a{
+    cursor: pointer;
+    font-size: 12px;
+    text-decoration: none;
+
+}
+
+.dr {
+    background-color: #FFFFFF;
+    color: #000000;
+    font-family: Arial;
+    font-size: 11px;
+}
+
+.calculados {
+    background-color: #999999;
+    color: #000000;
+    font-family: Arial;
+    font-size: 11px;
+    font-weight: bold;
+}
+
+.read_only {
+    background-color: #999999;
+    color: #000000;
+    font-family: Arial;
+    font-size: 11px;
+}
+
+.sr {
+    background-color: #F3F3F3;
+    color: #000000;
+    font-family: Arial;
+    font-size: 11px;
+}
+
+.Mensajes {
+    font-size: 16px;
+    font-weight: bold;
+    font-family: Arial;
+    text-align: left;
+}
+
+.Alerta {
+    font-size: 20px;
+    font-weight: bold;
+    font-family: Arial;
+    color: #FF0000;
+}
+
+.Mal {
+    font-size: 14px;
+    font-weight: bold;
+    font-family: Arial;
+    color: #FF0000;
+}
+
+.Mal_Menu {
+    font-size: 11px;
+    font-weight: bold;
+    font-family: Arial;
+    color: #FF0000;
+}
+
+.Dias {
+    font-size: 22px;
+    font-weight: bold;
+    font-family: Arial;
+    color: #060A59;
+}
+
+.Bien {
+    font-size: 14px;
+    font-weight: bold;
+    font-family: Arial;
+    color: #060A59;
+}
+
+.Bien_Menu {
+    font-size: 11px;
+    font-weight: bold;
+    font-family: Arial;
+    color: #060A59;
+}
+
+.Novedades {
+    font-size: 12px;
+    font-weight: bold;
+    font-family: Arial;
+}
+
+.Titulos {
+    font-size: 18px;
+    font-weight: bold;
+    font-family: Arial;
+}
+
+.Etiquetas {
+    font-size: 12px;
+    font-weight: bold;
+    font-family: Arial;
+}
+
+div#tipDiv {
+    color: #FFFFFF;
+    font-size: 11px;
+    line-height: 1.2;
+    background-color: #060A59;
+    border: 1px solid #667295;
+    width: 600px;
+    padding: 5px;
+    font-weight: bold;
+    font-family: Arial;
+}
+
+.Mal_Menu ul {
+    padding: 0px 0px 0px 12px;
+}
+
+/*.Mal_Menu ul li{padding-left: 10px;list-style: none;}
+.Mal_Menu ul li:first-child{padding: 0;}*/
+.tbl_cuc tr:nth-child(2n-1) {
+    background: #eeeeee;
+}
+.btn_menu{
+    padding: 8px 12px;
+    background: #FF8F35;
+    color: #ffffff;
+    display: block;
+    width: 120px;
+    margin: 10px 0;
+    border-radius: 5px;
+}
+.btn_menu:hover{
+    background: #FF9653;
+}
+.content_main{
+    padding: 0 12px;
+}
+.content_logo{
+    margin: 0 0 12px;
+}
+.content_menu {
+    background: #eeeeee;
+    margin: 5px 0 0;
+    padding: 0px 170px;
+    height: 30px;
+}
+.content_logo_left, .content_message_center{
+    float: left;
+}
+.content_logo_left, .content_logo_right{
+    width: 200px;
+}
+.content_message_center{
+    width: 632px;
+    padding: 12px 10px 5px;
+}
+.content_message_center p{
+    text-align: center;
+}
+.content_message_center .content_message .Mensajes{
+    text-align: center;
+    font-size: 14px;
+}
+.content_message .Mensajes{
+    text-align: left;
+    font-size: 16px;
+}
+.content_logo_right{
+    float: right;
+}
+.content_vision h2{
+    text-align: center;
+}
+.btn{
+    border: none;
+    color: #ffffff;
+    padding: 8px 12px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.btn:hover{
+    opacity: 0.9;
+}
+.btn.blue{
+    background: #060A59;
+}
+.btn.green{
+    background: #5CB85C;
+}
+.btn.blue2{
+   background: #337AB7;
+}
+.btn.gray{
+   background: #F0F0F0;
+   color:#333;
+}
+.btn.red{
+   background: #D9534F;
+}
+.btn.dark{
+   background: #454851;
+}
+.bd_right .contact{
+    color:#ffffff;
+    text-decoration: underline;
+}
+.link{
+    text-decoration: underline;
+}
+.bd_right h2, .bd_right a{
+    font-size: 14px;
+}
+@media screen and (min-width: 1094px) {
+    .content_message_center{
+        width: 905px;
+    }
+}
+/*@media screen and (min-width: 1094px) {
+    .content_message_center{
+        width: 1075px;
+    }
+}*/

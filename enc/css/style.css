@@ -1,0 +1,154 @@
+#bck_log{
+  background: #034EA2; /* For browsers that do not support gradients */
+  background: -webkit-radial-gradient(circle, #034EA2, #00124A); /* Safari 5.1 to 6.0 */
+  background: -o-radial-gradient(circle, #034EA2, #00124A); /* For Opera 11.6 to 12.0 */
+  background: -moz-radial-gradient(circle, #034EA2, #00124A); /* For Firefox 3.6 to 15 */
+  background: radial-gradient(circle, #034EA2, #00124A); /* Standard syntax */
+}
+#content_login {margin: 120px auto 0; width: 560px;}
+.navbar-default.top{background-color: #eeeeee; min-height: 25px !important; border: none;}
+.navbar-default.top .navbar-nav li a{color: #222222; padding: 0 10px;}
+.navbar-default {background-color: #0b1944; border-color: #0b1944 ;}
+#sidenav01 .active{background: #ffffff;}
+#sidenav01 .active a{color: #0b1944; background: none;}
+/*.navbar{min-height: 105px;}*/
+.navbar-default .navbar-nav li a:hover{color: #0b1944; background-color: #ffffff; text-decoration: none;}
+.user_menu ul li a{color: #0b1944 !important;}
+.affix-content .container{padding-bottom: 120px;}
+.error label{color:#E10E00;}
+a.navbar-brand{width: 230px; height: auto;}
+a.navbar-brand img{margin: 0 auto;}
+.sidebar-nav .navbar-header{background: #ffffff;}
+#sidenav01 li a {color: #fff; !important}
+#sidenav01 li a:hover {color: #0b1944 !important; background: #ffffff;}
+.content_logo {padding: 10px 0; opacity: 0.5; text-align: center;}
+.content_logo img{margin: 10px 0;}
+.content_logo p{text-align: center; width: 230px; color: #ffffff; margin: 0 auto;}
+.content_logo p a{color: #ffffff;}
+.content_logo:hover {opacity: 0.9}
+#bck_log .panel-heading{text-align: center; background: #ffffff; border: 0;}
+#bck_log hr{margin: 0;}
+#bck_log .glyphicon{font-size: 32px; text-align: right;}
+span.inf_import{font-weight: bold;}
+span.inf_import.org{color: #e1a600;}
+span.inf_import.red{color: #D42400;}
+ul.nove_enc{padding: 0; list-style: none;}
+ul.nove_enc a{color:#222222;}
+.reports_content{text-align: right;}
+label.lbl_disabled{color: #eeeeee;}
+.panel-title a.collapsed{display: block; font-weight: bold;  background:url("img/bck_colapsed.jpg") no-repeat right center;}
+/* make sidebar nav vertical */
+@media (min-width: 768px){
+  .affix-content .container {
+    width: 700px;
+  }
+
+  html,body{
+    background-color: #f8f8f8;
+    height: 100%;
+    overflow: hidden;
+  }
+    .affix-content .container .page-header{
+    margin-top: 0;
+  }
+  /*.sidebar-nav{
+        position:fixed;
+        width:100%;
+  }*/
+  .affix-sidebar{
+    padding-right:0;
+    font-size:small;
+    padding-left: 0;
+  }
+  .affix-row, .affix-container, .affix-content{
+    height: 100%;
+    margin-left: 0;
+    margin-right: 0;
+  }
+  .affix-content{
+    background-color:white;
+  }
+  .affix-content, .affix-sidebar{
+    margin-top: 25px;
+  }
+  .sidebar-nav .navbar .navbar-collapse {
+    padding: 0;
+    max-height: none;
+    margin-top: 120px;
+  }
+  .sidebar-nav .navbar{
+    border-radius:0;
+    margin-bottom:0;
+    border:0;
+  }
+  .sidebar-nav .navbar ul {
+    float: none;
+    display: block;
+  }
+  .sidebar-nav .navbar li {
+    float: none;
+    display: block;
+  }
+  .sidebar-nav .navbar li a {
+    padding-top: 12px;
+    padding-bottom: 12px;
+  }
+}
+
+@media (min-width: 769px){
+  .affix-content .container {
+    width: 600px;
+  }
+    .affix-content .container .page-header{
+    margin-top: 0;
+  }
+}
+
+@media (min-width: 992px){
+  .affix-content .container {
+  width: 900px;
+  }
+    .affix-content .container .page-header{
+    margin-top: 0;
+  }
+  .content_logo {width: 165px;}
+  .content_logo img{padding: 0;}
+}
+
+@media (min-width: 1220px){
+  .affix-row{
+    overflow: hidden;
+  }
+
+  .affix-content{
+    overflow: auto;
+  }
+
+  .affix-content .container {
+    width: 1000px;
+  }
+
+  .affix-content .container .page-header{
+    margin-top: 0;
+  }
+  .affix-content{
+    padding-right: 30px;
+    padding-left: 30px;
+  }
+  .affix-title{
+    border-bottom: 1px solid #ecf0f1;
+    padding-bottom:10px;
+  }
+  .navbar-nav {
+    margin: 0;
+  }
+  .navbar-collapse{
+    padding: 0;
+  }
+  .content_logo {width: 228px;}
+}
+@media (max-width: 768px){
+  .col-sm-3.col-md-2.affix-sidebar{margin-top: 26px;}
+  nav.top{padding: 0 10px; font-size: 11px}
+  nav.top ul{margin: 0;}
+}

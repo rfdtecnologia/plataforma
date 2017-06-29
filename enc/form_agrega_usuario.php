@@ -1,0 +1,37 @@
+<?php
+echo "<hr>";
+    echo '<div>';
+    echo '<form class="form-horizontal" id="usuario_inf" action="">';
+      echo '<div class="form-group">';
+        echo '<label for="user_ci" class="col-sm-2 control-label">Cédula</label>';
+        echo '<div class="col-sm-10">';
+          echo '<input type="text" class="form-control readonly" id="user_ci" name="user_ci" placeholder="Cédula" value="'.$id_usuario.'">';
+        echo '</div>';
+      echo '</div>';
+      echo '<div class="form-group">';
+        echo '<label for="user_nombre" class="col-sm-2 control-label">Nombre</label>';
+        echo '<div class="col-sm-10">';
+          echo '<input type="text" class="form-control" id="user_nombre" name="user_nombre" placeholder="Nombre">';
+        echo '</div>';
+      echo '</div>';
+      echo '<div class="form-group">';
+        echo '<label for="user_correo" class="col-sm-2 control-label">Correo Electrónico</label>';
+        echo '<div class="col-sm-10">';
+          echo '<input type="email" class="form-control" id="user_correo" name="user_correo" placeholder="Correo Electrónico">';
+        echo '</div>';
+      echo '</div>';
+      echo '<div class="form-group">';
+        echo '<label for="user_estado" class="col-sm-2 control-label">Estado</label>';
+        echo '<div class="col-sm-10">';
+          echo '<input type="text" class="form-control" id="user_estado" name="user_estado" placeholder="Estado">';
+        echo '</div>';
+      echo '</div>';
+      echo '<div class="form-group">';
+        echo '<label for="user_fec_nac" class="col-sm-2 control-label">Fecha Nacimiento</label>';
+        echo '<div class="col-sm-10">';
+          echo '<input type="date" class="form-control" id="user_fec_nac" name="user_fec_nac" placeholder="Fecha de Nacimiento">';
+        echo '</div>';
+      echo '</div>';
+    echo '</form>';
+    echo '</div>';
+?>

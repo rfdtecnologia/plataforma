@@ -1,0 +1,25 @@
+a{cursor: pointer !important;}
+#bck_log{
+  background: #034EA2; /* For browsers that do not support gradients */
+  background: -webkit-radial-gradient(circle, #034EA2, #00124A); /* Safari 5.1 to 6.0 */
+  background: -o-radial-gradient(circle, #034EA2, #00124A); /* For Opera 11.6 to 12.0 */
+  background: -moz-radial-gradient(circle, #034EA2, #00124A); /* For Firefox 3.6 to 15 */
+  background: radial-gradient(circle, #034EA2, #00124A); /* Standard syntax */
+}
+#bck_log .panel-heading{text-align: center; background: #ffffff; border: 0;}
+#bck_log hr{margin: 0;}
+#bck_log .glyphicon{font-size: 32px; text-align: right;}
+#content_login {margin: 120px auto 0; width: 560px;}
+.actions_b {bottom: 15%;position: fixed;right: 4%;width: 40px; display: none;}
+.actions_b_u{text-align: right;}
+.btn.enlace.guardar span{color: #00ff1d;}
+.btn.enlace.cancelar span{color: #ff0000;}
+.glyphicon-pencil.edit{ display: none;font-size: 13px;margin-right: 3px;text-decoration: none !important; color: #888888;}
+.editable:hover{background: #eeeeee; cursor: pointer;}
+.editable:hover .glyphicon-pencil.edit{display: inline-block;}
+td span{color: #888888; font-size: 13px;}
+.editable span {color: #222222;}
+.editable:hover span{text-decoration: underline;}
+.no_change:hover{cursor: default;}
+td.disabled span {color: #959595;}
+.ok { color: #4F8A10;  background-color: #DFF2BF; padding: 8px 0;}

@@ -1,0 +1,18 @@
+body{margin:0px; padding: 0; font-family: arial, sans-serif; background: #eeeeee; color: #222222; font-size: 12px;}
+.content{width:700px; margin: 0 auto;background: #ffffff; padding: 20px;}
+.content .list_error{color: #f00;}
+.s_error{color: #B50324; border: 1px solid #B50324; text-align: center; padding: 20px 0;display: none;}
+.s_error a{color: #B50324; font-weight: bold;}
+.carg_error{color: #B50324; border: 1px solid #B50324; text-align: center; padding: 20px 0;}
+table{margin: 15px 0;}
+table td input{border: 1px solid #cccccc; background: #cccccc; width: 128px; padding: 3px 5px; margin-bottom: 3px; color: #666666;}
+.btn_save{text-align: center; position: fixed; bottom: 22%; right:0;}
+.btn_save input{width: 200px; height: 45px; background: #5CB85C; color: #ffffff; border: none; border-radius: 5px 0 0 5px; cursor: pointer; font-weight: bold;box-shadow: 0px 5px 3px #888888;}
+.btn_save input:hover{background: #5CB85C; width: 203px; height: 47px; }
+input.btn_edit{border: 1px solid #666666; border-radius: 5px; background: #999999; cursor: pointer; color: #222222;}
+.inputEdit{color: #222222;}
+.top h1{text-align: center;}
+/*.carg_exito{color: #377F00; border: 1px solid #377F00; text-align: center; padding: 20px 0;}*/
+.ir-arriba {display:none; width: 50px;	padding:25px 0;	background: url('../images/bck_back.png') no-repeat;	cursor:pointer; margin: 0 0 10px;}
+.bien{color: #0033ff; border: 1px solid #0033ff; text-align: center; padding: 20px 0;}
+.error{color: #ff0000; border: 1px solid #ff0000; text-align: center; padding: 20px 0;}

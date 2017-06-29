@@ -1,0 +1,33 @@
+body{margin:0px; padding: 0; font-family: arial, sans-serif; background-color: #020437!important; color: #222222; font-size: 12px;}
+.clr{clear: both;}
+a{text-decoration: none; cursor: pointer;}
+.content{width:700px; margin: 0 auto;background: #ffffff; padding: 20px;}
+.content .list_error{color: #f00;}
+.s_error{color: #B50324; border: 1px solid #B50324; text-align: center; padding: 20px 0;display: none;}
+.s_error a{color: #B50324; font-weight: bold;}
+.carg_error{color: #B50324; border: 1px solid #B50324; text-align: center; padding: 20px 0;}
+table{margin: 15px 0;}
+table td input{border: 1px solid #cccccc; background: #cccccc; width: 128px; padding: 3px 5px; margin-bottom: 3px; color: #666666;}
+.btn_save{text-align: center; position: fixed; bottom: 0; right:153px;}
+.btn_save input{width: 150px; height: 45px; border: 0; background: #D18000; color: #ffffff; border-radius: 12px 12px 0 0; cursor: pointer;}
+input.btn_edit{border: 1px solid #666666; border-radius: 5px; background: #999999; cursor: pointer; color: #222222;}
+.inputEdit{color: #222222;}
+.top h1{text-align: center;}
+.carg_exito{color: #377F00; border: 1px solid #377F00; text-align: center; padding: 20px 0;}
+.ir-arriba {display:none; width: 50px;	padding:25px 0;	background: url('../images/bck_back.png') no-repeat;	cursor:pointer; margin: 0 0 10px;}
+.content_main{min-height: 658px; background: url('images/bck_c.jpg') no-repeat; background-size: cover; background-position: center center; background-attachment: fixed; background-color: #020437;}
+.cont_l{float: left; width: 40%; text-align: center;}
+.cont_l .cont_l_in{margin: 120px 0 0 210px; width: 307px;}
+.cont_l_in .cont_int {margin-top: 40px;}
+.cont_int a {color: #060a59;}
+.cont_l_in .cont_buttons{margin: 50px 0 0;  padding: 0 29px 30px; border-bottom: 1px solid #840000;}
+.cont_buttons .button {width: 250px;margin: 10px 0;}
+.button a {font-size: 16px; background: #060a59 none repeat scroll 0 0;border: medium none;border-radius: 2px;color: #fff;padding: 5px 0;width: 100%; display: block;}
+.cont_r{float: right; width: 60%; text-align: center;}
+.cont_r h1.welcome {margin-top: 215px; color: #060a59;}
+.content_form{padding: 0 130px; margin-top: 130px;}
+#content_login .panel-heading{background: #ffffff; color: #222222;}
+#content_login .glyphicon {font-size: 32px;text-align: right; }
+.cont_int li.dropdown{float: none;}
+.cont_int li.dropdown a:hover, .cont_int li.dropdown a:focus{color: #060a59; background: none; border: none;}
+.open .dropdown-menu{text-align: center; width: 305px;}
